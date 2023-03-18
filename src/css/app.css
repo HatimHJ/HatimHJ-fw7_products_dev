@@ -1,0 +1,29 @@
+/* Your app custom styles here */
+.page-content {
+	background-color: #f9f9f9;
+}
+.card-header {
+	border-radius: var(--f7-card-border-radius) var(--f7-card-border-radius) 0 0;
+	height: 200px;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.list > a {
+	color: black;
+	max-width: 350px;
+}
+
+.swiper-slide {
+	background: #fff;
+	text-align: center;
+	font-size: 18px;
+	line-height: 200px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+.swiper-slide img {
+	width: 100%;
+	object-fit: cover;
+}
